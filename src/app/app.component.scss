@@ -1,0 +1,13 @@
+ngb-progressbar {
+    margin: 2rem;
+  }
+
+::ng-deep .progress-bar{
+  color: black;
+  font-weight: bold;
+}
+::ng-deep span.progress-value{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
