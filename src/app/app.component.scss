@@ -1,3 +1,7 @@
+.container{
+  width: 100%;
+}
+
 ngb-progressbar {
     margin: 2rem;
   }
@@ -10,4 +14,24 @@ ngb-progressbar {
   position: absolute;
   width: 100%;
   text-align: center;
+}
+
+#dropdownBasic{
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.btn-progress-value{
+  margin-right: 10px;
+}
+
+.selected-bar{
+  font-weight: bolder;
+  color: blue;
+}
+
+@media (max-width: 500px){
+  #dropdownBasic{
+    margin-bottom: 20px; 
+  }
 }
